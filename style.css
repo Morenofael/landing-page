@@ -1,0 +1,71 @@
+:root{
+    --header-color:#2C3639;
+    --main-color:#3F4E4F;
+    --segunda-color:#A27B5C;
+    --ultima-color:#DCD7C9;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: var(--header-color);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+main{
+    background-color: var(--main-color);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+    main .foto{
+        width: 50%;
+        height: auto;
+        margin: 10px;
+}
+        main .foto img{
+            width: 100%;
+            height: auto;
+        }
+    main .hero{
+        width: 50%;
+    }
+        main .hero .buttons button{
+            font-size: 18px;
+            background-color: green;
+            padding: 8px 16px;
+            border-radius: 8px;
+        }
+.segunda{
+    padding: 20px;
+    background-color: var(--segunda-color);
+}
+    .segunda .circulos-container{
+        display: flex;
+        justify-content: space-around;
+    }
+    .segunda .circulos-container .circulos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .segunda .circulos-container .circulos .circulo{
+        width: 64px;
+        height: 64px;
+        border-radius: 50px;
+        background-color: var(--ultima-color);
+    }
+footer{
+    padding: 20px;
+    background-color: var(--ultima-color);
+}
+    footer .information-container{
+        display: flex;
+        justify-content: space-around;
+    }
+        footer .information-container .information{
+            display: flex;
+            flex-direction: column;
+        }
